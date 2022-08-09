@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (5.6.2)
+  - BigInt (5.2.0)
+  - CryptoSwift (1.5.1)
+  - ESPullToRefresh (2.9.3)
+  - MBProgressHUD (1.2.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+  - secp256k1.c (0.1.2)
+  - Starscream (4.0.4)
+  - TTTAttributedLabel (2.0.0)
+  - web3swift (2.6.6):
+    - BigInt (= 5.2.0)
+    - CryptoSwift (= 1.5.1)
+    - PromiseKit (= 6.15.3)
+    - secp256k1.c (= 0.1.2)
+    - Starscream (= 4.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESPullToRefresh (~> 2.9.3)
+  - MBProgressHUD (~> 1.2.0)
+  - ReachabilitySwift (= 5.0.0)
+  - TTTAttributedLabel (= 2.0.0)
+  - web3swift (from `https://github.com/skywinder/web3swift`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - CryptoSwift
+    - ESPullToRefresh
+    - MBProgressHUD
+    - PromiseKit
+    - ReachabilitySwift
+    - secp256k1.c
+    - Starscream
+    - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  web3swift:
+    :branch: master
+    :git: https://github.com/skywinder/web3swift
+
+CHECKOUT OPTIONS:
+  web3swift:
+    :commit: 4312a7178e1255c3ef65ac909657d29f6dd81bb6
+    :git: https://github.com/skywinder/web3swift
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  web3swift: bee1e0550e43f1369dc9f34d5a01f537284c9e9a
+
+PODFILE CHECKSUM: e0de1adc3aea6acfa57113cd4e8cd8f6f1f7f03a
+
+COCOAPODS: 1.11.3
